@@ -1,0 +1,27 @@
+{
+  "name": "watson-text2speech",
+  "version": "1.0.0",
+  "description": "Implementing Watson text to speech in Node.Js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zazirskas/watson-text2speech.git"
+  },
+  "keywords": [
+    "watson"
+  ],
+  "author": "Thiago Zazirskas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zazirskas/watson-text2speech/issues"
+  },
+  "homepage": "https://github.com/zazirskas/watson-text2speech#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ibm-watson": "^6.2.2"
+  }
+}
